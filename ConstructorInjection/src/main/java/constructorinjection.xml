@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"> 
+    <!-- create an object -->
+    <bean id="empobj" class="com.edu.Employee"><!--  Employee eob=new Employee(1,"Bhavani") -->
+      <constructor-arg value="1" type="int"></constructor-arg> 
+      <constructor-arg value="Bhavani" type="String"></constructor-arg>
+      <constructor-arg value="20000.78" type="float"></constructor-arg>
+    </bean>
+    
+    <bean id="empobj1" class="com.edu.Employee"><!--  Employee eob=new Employee(2,"Gomathi") -->
+      <constructor-arg value="2" type="int"></constructor-arg> 
+      <constructor-arg value="Gomathi" type="String"></constructor-arg>
+      <constructor-arg value="10000.89" type="float"></constructor-arg>
+    </bean>
+    </beans>
+    
